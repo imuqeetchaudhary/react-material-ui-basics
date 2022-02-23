@@ -1,5 +1,5 @@
 {
-  "name": "material-ui-tut",
+  "name": "material-ui-basics",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,8 +8,10 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.1",
+    "date-fns": "^2.28.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-masonry-css": "^1.0.16",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "web-vitals": "^1.1.0"
@@ -18,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve-json": "json-server --watch db/db.json --port 4000"
   },
   "eslintConfig": {
     "extends": [
